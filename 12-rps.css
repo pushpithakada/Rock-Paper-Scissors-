@@ -1,0 +1,42 @@
+body {
+      background-color:#191919;
+      font-family: Arial;
+    }
+    p {
+      color: antiquewhite;
+    } 
+    .title{
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .button {
+      margin: 5px;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    .button:hover{
+      opacity: 0.7;
+    }
+    .button:active{
+      background-color: #191919;
+      color: white;
+    }
+    img{
+      width: 50px;
+    }
+    .icon{
+      background-color: transparent;
+      border: 3px solid white;
+      width: 120px;
+      height: 120px;
+      border-radius: 60px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    .js-result{
+      font-weight:bold ;
+      font-size: 25px;
+    }
